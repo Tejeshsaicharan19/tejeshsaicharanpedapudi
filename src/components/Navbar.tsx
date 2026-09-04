@@ -73,7 +73,7 @@ export function Navbar() {
           <a
             href={profile.resume}
             download
-            className="gradient-brand hidden items-center gap-2 rounded-full px-4 py-2 text-[13px] font-semibold text-primary-foreground transition-transform hover:scale-[1.03] sm:inline-flex"
+            className="gradient-brand hidden items-center gap-2 whitespace-nowrap rounded-full px-4 py-2 text-[13px] font-semibold text-primary-foreground transition-transform hover:scale-[1.03] sm:inline-flex"
           >
             <Download className="size-4" aria-hidden />
             Download Resume
