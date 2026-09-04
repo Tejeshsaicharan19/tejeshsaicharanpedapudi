@@ -179,10 +179,10 @@ function FormField({
   id: string;
   label: string;
   value: string;
-  error?: string;
+  error?: string | undefined;
   onChange: (value: string) => void;
   type?: string;
-  textarea?: boolean;
+  textarea?: boolean | undefined;
 }) {
   const base =
     "mt-2 w-full rounded-xl border bg-secondary/40 px-4 py-3 text-sm outline-none transition-colors placeholder:text-muted-foreground focus:border-primary";
